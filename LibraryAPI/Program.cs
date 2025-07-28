@@ -1,4 +1,7 @@
+
 using Library.Infrastructure.Extensions;
+using LibraryAPI.Middlewares;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace LibraryAPI
 {
@@ -16,6 +19,8 @@ namespace LibraryAPI
             builder.Services.AddSwaggerGen();
             builder.Services.ConfigureEfCore(builder.Configuration);
             builder.Services.ConfigureRepositories();
+            builder.Services.ConfigureAutoMapper();
+            builder.Services.ConfigureValidations();
 
             var app = builder.Build();
 
@@ -28,6 +33,7 @@ namespace LibraryAPI
 
             app.UseHttpsRedirection();
 
+            app.UseMiddleware<ExceptionHandlingMiddleware>();
             app.UseAuthorization();
 
 
