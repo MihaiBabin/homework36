@@ -1,7 +1,10 @@
 ﻿using FluentValidation;
 using Library.Aplication.DTOs.Authors;
 using Library.Aplication.Interfaces;
+using Library.Infrastructure.Configurations;
 using Library.Infrastructure.Data;
+using Library.Infrastructure.ExternalServices;
+using Library.Infrastructure.Implementations;
 using Library.Infrastructure.Persistance;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Library.Infrastructure.Extensions
 {
-    public static class ServiceCollectionExtensions
+    public static class ServiceCollection
     {
         public static IServiceCollection ConfigureEfCore(this IServiceCollection services, IConfiguration configuration)
         {
@@ -26,6 +29,7 @@ namespace Library.Infrastructure.Extensions
             services.AddScoped<IAuthorRepository, AuthorRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IGenreRepository, GenreRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             return services;
         }
 
@@ -40,5 +44,17 @@ namespace Library.Infrastructure.Extensions
             services.AddValidatorsFromAssemblyContaining<CreateAuthorValidator>();
             return services;
         }
+
+        public static IServiceCollection ConfigureAuthService(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddScoped<IGoogleService, GoogleService>();
+            services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+            services.Configure<GoogleConfigurations>(configuration.GetSection(GoogleConfigurations.SectionName));
+            services.AddHttpClient<IGoogleService, GoogleService>(client =>
+            {
+                client.BaseAddress = new Uri(configuration[$"{GoogleConfigurations.SectionName}:TokenUrl"]);
+            });
+            return services;
+        }
     }
-}
+}   
