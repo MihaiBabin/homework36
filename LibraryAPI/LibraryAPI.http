@@ -2,5 +2,5 @@
 
 GET {{LibraryAPI_HostAddress}}Authors?Page=1&PageSize=2
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwiZW1haWwiOiJtaWhhaWJhYmluQGdtYWlsLmNvbSIsImp0aSI6ImEwNTNlZmY2LTFhNTgtNDM2Yi1iYWI5LWQ0MzBjM2M5OTVjYiIsImV4cCI6MTc1NTAyMDE4OSwiaXNzIjoiVGVrd2lsbC5BdXRoLkFwaSIsImF1ZCI6IlRla3dpbGwifQ.I0VVC4v1kLRw8YrmDoIoPicetPtYwKNj-nKTOMZ3RyM
+x-app-name: tekwill-bot-app
 ###

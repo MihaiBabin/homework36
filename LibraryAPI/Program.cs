@@ -1,11 +1,11 @@
 
 using Library.Infrastructure.Extensions;
+using LibraryAPI.Handlers.Authentication;
 using LibraryAPI.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using System.Text.Json.Serialization;
 
 namespace LibraryAPI
 {
@@ -28,8 +28,19 @@ namespace LibraryAPI
             builder.Services.ConfigureValidations();
             builder.Services.AddAuthentication(o =>
             {
-                o.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                o.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                o.DefaultAuthenticateScheme = "Multi";
+                o.DefaultChallengeScheme = "Multi";
+            })
+            .AddPolicyScheme("Multi", "Multi", o =>
+            {
+                o.ForwardDefaultSelector = ctx =>
+                {
+                    if (ctx.Request.Headers.ContainsKey("x-app-name"))
+                    {
+                        return "AppHeader";
+                    }
+                    return JwtBearerDefaults.AuthenticationScheme;
+                };
             })
             .AddJwtBearer(o =>
             {
@@ -43,6 +54,10 @@ namespace LibraryAPI
                     ValidAudience = builder.Configuration["JwtSettings:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:SecretKey"]))
                 };
+            })
+            .AddScheme<AppHeaderAuthOptions, AppHeaderAuthenticationHandler>("AppHeader", o =>
+            {
+                o.AllowedNames = builder.Configuration.GetSection("AppHeaderAuth:AllowedNames").Get<string[]>() ?? Array.Empty<string>();
             });
 
             builder.Services.AddSwaggerGen(c =>
@@ -63,19 +78,38 @@ namespace LibraryAPI
                     }
                 };
                 c.AddSecurityDefinition("Bearer", securityScheme);
-                var openSecurityScheme = new OpenApiSecurityScheme
+
+                var appheader = new OpenApiSecurityScheme
                 {
+                    Name = "x-app-name",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Description = "Set wirth one of configurated app names",
                     Reference = new OpenApiReference
                     {
                         Type = ReferenceType.SecurityScheme,
-                        Id = "Bearer"
+                        Id = "AppHeader"
                     }
-                }; 
-                var securityRequirement = new OpenApiSecurityRequirement
-                {
-                    {openSecurityScheme, Array.Empty<string>() }
                 };
-                c.AddSecurityRequirement(securityRequirement);
+                c.AddSecurityDefinition("AppHeader", appheader);
+
+                //var openSecurityScheme = new OpenApiSecurityScheme
+                //{
+                //    Reference = new OpenApiReference
+                //    {
+                //        Type = ReferenceType.SecurityScheme,
+                //        Id = "Bearer"
+                //    }
+                //};
+                //var securityRequirement = new OpenApiSecurityRequirement
+                //{
+                //    {openSecurityScheme, Array.Empty<string>() }
+                //};
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    { new OpenApiSecurityScheme {Reference = new OpenApiReference{Type = ReferenceType.SecurityScheme,Id = "Bearer"}}, Array.Empty<string>() },
+                    { new OpenApiSecurityScheme {Reference =  new OpenApiReference {Type = ReferenceType.SecurityScheme,Id = "AppHeader"} }, Array.Empty<string>() }
+                });
             });
 
             var app = builder.Build();
@@ -90,6 +124,7 @@ namespace LibraryAPI
             app.UseHttpsRedirection();
 
             app.UseMiddleware<ExceptionHandlingMiddleware>();
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
