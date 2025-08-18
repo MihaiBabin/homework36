@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "AuthApi\\AuthApi.csproj",
+        "Path": "LibraryBot\\LibraryBot.csproj",
         "Action": "Start"
       }
     ]
