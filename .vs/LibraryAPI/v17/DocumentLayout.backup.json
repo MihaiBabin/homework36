@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\implementations\\libraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\implementations\\libraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\data\\configurations\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\data\\configurations\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250820114511_UpdateEntityWithCreatedAtProp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library.Infrastructure\\Migrations\\20250820114511_UpdateEntityWithCreatedAtProp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA095C28-56B8-442B-A55D-ACC26063D453}|Library.Domain\\Library.Domain.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA095C28-56B8-442B-A55D-ACC26063D453}|Library.Domain\\Library.Domain.csproj|solutionrelative:library.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250820113902_UpdateEntityWithCreatedAtProp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library.Infrastructure\\Migrations\\20250820113902_UpdateEntityWithCreatedAtProp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\librarynotificationjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\librarynotificationjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA095C28-56B8-442B-A55D-ACC26063D453}|Library.Domain\\Library.Domain.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.domain\\common\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA095C28-56B8-442B-A55D-ACC26063D453}|Library.Domain\\Library.Domain.csproj|solutionrelative:library.domain\\common\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\persistance\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\persistance\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B48D1F-6FB0-437E-96D9-FADE157B9280}|Library.Aplication\\Library.Aplication.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.aplication\\interfaces\\ichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B48D1F-6FB0-437E-96D9-FADE157B9280}|Library.Aplication\\Library.Aplication.csproj|solutionrelative:library.aplication\\interfaces\\ichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\persistance\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\persistance\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\libraryapi\\controllers\\categrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\categrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\libraryapi\\controllers\\authorscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\authorscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\libraryapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\persistance\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\persistance\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\interfaces\\ilibraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\interfaces\\ilibraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\implementations\\libraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\implementations\\libraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{84B48D1F-6FB0-437E-96D9-FADE157B9280}|Library.Aplication\\Library.Aplication.csproj|solutionrelative:library.aplication\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\persistance\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\persistance\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250818110855_UpdateCategoryModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library.Infrastructure\\Migrations\\20250818110855_UpdateCategoryModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA095C28-56B8-442B-A55D-ACC26063D453}|Library.Domain\\Library.Domain.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA095C28-56B8-442B-A55D-ACC26063D453}|Library.Domain\\Library.Domain.csproj|solutionrelative:library.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\libraryapi\\controllers\\categrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2549275-CBFB-40C9-ABCB-01B0202A42ED}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\categrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84B48D1F-6FB0-437E-96D9-FADE157B9280}|Library.Aplication\\Library.Aplication.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.aplication\\dtos\\categories\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +95,8 @@
       "RelativeMoniker": "D:0:0:{84B48D1F-6FB0-437E-96D9-FADE157B9280}|Library.Aplication\\Library.Aplication.csproj|solutionrelative:library.aplication\\dtos\\books\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\interfaces\\ilibraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\interfaces\\ilibraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84B48D1F-6FB0-437E-96D9-FADE157B9280}|Library.Aplication\\Library.Aplication.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.aplication\\dtos\\authors\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84B48D1F-6FB0-437E-96D9-FADE157B9280}|Library.Aplication\\Library.Aplication.csproj|solutionrelative:library.aplication\\dtos\\authors\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\librarybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141427DC-1C69-4522-B204-C74E9647A29B}|LibraryBot\\LibraryBot.csproj|solutionrelative:librarybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\migrations\\20250812184212_add_entities_for_bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,6 +117,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\migrations\\20250814185450_removeuseridfromchatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\migrations\\20250814185450_removeuseridfromchatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\home pc\\source\\repos\\homework36-30iulie\\library.infrastructure\\migrations\\20250818110855_updatecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF301891-4F8A-4288-AB0F-6969EFED4283}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\migrations\\20250818110855_updatecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,11 +130,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "20250820114511_UpdateEntityWithCreatedAtProp.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250820114511_UpdateEntityWithCreatedAtProp.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250820114511_UpdateEntityWithCreatedAtProp.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250820114511_UpdateEntityWithCreatedAtProp.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250820114511_UpdateEntityWithCreatedAtProp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:45:12.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250820113902_UpdateEntityWithCreatedAtProp.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250820113902_UpdateEntityWithCreatedAtProp.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250820113902_UpdateEntityWithCreatedAtProp.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250820113902_UpdateEntityWithCreatedAtProp.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250820113902_UpdateEntityWithCreatedAtProp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:39:03.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:33:18.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Library.Domain\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "Library.Domain\\Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:30:45.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Data\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Data\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Data\\LibraryContext.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Data\\LibraryContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:17:58.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IChatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Aplication\\Interfaces\\IChatRepository.cs",
+              "RelativeDocumentMoniker": "Library.Aplication\\Interfaces\\IChatRepository.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Aplication\\Interfaces\\IChatRepository.cs",
+              "RelativeToolTip": "Library.Aplication\\Interfaces\\IChatRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:07:54.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Persistance\\ChatRepository.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Persistance\\ChatRepository.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Persistance\\ChatRepository.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Persistance\\ChatRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:07:06.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryNotificationJob.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\LibraryNotificationJob.cs",
+              "RelativeDocumentMoniker": "LibraryBot\\LibraryNotificationJob.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\LibraryNotificationJob.cs",
+              "RelativeToolTip": "LibraryBot\\LibraryNotificationJob.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:15:31.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthorsControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryAPI\\Controllers\\AuthorsControllers.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\AuthorsControllers.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryAPI\\Controllers\\AuthorsControllers.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\AuthorsControllers.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T08:58:30.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Persistance\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Persistance\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Persistance\\BookRepository.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Persistance\\BookRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwCcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T08:44:46.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Home pc\\Source\\Repos\\homework36-30iulie\\LibraryAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Home pc\\Source\\Repos\\homework36-30iulie\\LibraryAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T08:43:10.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "20250818110855_UpdateCategoryModel.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250818110855_UpdateCategoryModel.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250818110855_UpdateCategoryModel.cs",
@@ -103,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
@@ -116,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Library.Domain\\Entities\\Category.cs",
@@ -129,33 +316,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Persistance\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Persistance\\CategoryRepository.cs",
               "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Persistance\\CategoryRepository.cs",
               "RelativeToolTip": "Library.Infrastructure\\Persistance\\CategoryRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T10:59:29.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CategryController.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryAPI\\Controllers\\CategryController.cs",
               "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\CategryController.cs",
               "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryAPI\\Controllers\\CategryController.cs",
               "RelativeToolTip": "LibraryAPI\\Controllers\\CategryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwCgAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T10:58:11.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "CreateCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Aplication\\DTOs\\Categories\\CreateCategoryDto.cs",
               "RelativeDocumentMoniker": "Library.Aplication\\DTOs\\Categories\\CreateCategoryDto.cs",
@@ -168,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Aplication\\DTOs\\Categories\\CategoryDto.cs",
               "RelativeDocumentMoniker": "Library.Aplication\\DTOs\\Categories\\CategoryDto.cs",
@@ -181,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "AuthorDto.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Aplication\\DTOs\\Authors\\AuthorDto.cs",
               "RelativeDocumentMoniker": "Library.Aplication\\DTOs\\Authors\\AuthorDto.cs",
@@ -194,20 +381,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PaginatedList.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Domain\\Common\\PaginatedList.cs",
               "RelativeDocumentMoniker": "Library.Domain\\Common\\PaginatedList.cs",
               "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Domain\\Common\\PaginatedList.cs",
               "RelativeToolTip": "Library.Domain\\Common\\PaginatedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T08:42:42.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "BookDto.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Aplication\\DTOs\\Books\\BookDto.cs",
               "RelativeDocumentMoniker": "Library.Aplication\\DTOs\\Books\\BookDto.cs",
@@ -220,33 +407,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "LibraryApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\Implementations\\LibraryApiClient.cs",
               "RelativeDocumentMoniker": "LibraryBot\\Implementations\\LibraryApiClient.cs",
               "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\Implementations\\LibraryApiClient.cs",
               "RelativeToolTip": "LibraryBot\\Implementations\\LibraryApiClient.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwFUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T19:22:47.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ILibraryApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\Interfaces\\ILibraryApiClient.cs",
               "RelativeDocumentMoniker": "LibraryBot\\Interfaces\\ILibraryApiClient.cs",
               "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\Interfaces\\ILibraryApiClient.cs",
               "RelativeToolTip": "LibraryBot\\Interfaces\\ILibraryApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T19:17:03.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "20250814185450_RemoveUserIdFromChatModel.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250814185450_RemoveUserIdFromChatModel.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250814185450_RemoveUserIdFromChatModel.cs",
@@ -254,24 +441,25 @@
               "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250814185450_RemoveUserIdFromChatModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:54:50.241Z"
+              "WhenOpened": "2025-08-14T18:54:50.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\Program.cs",
               "RelativeDocumentMoniker": "LibraryBot\\Program.cs",
               "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\Program.cs",
               "RelativeToolTip": "LibraryBot\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T18:00:56.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "20250812184212_add_entities_for_bot.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250812184212_add_entities_for_bot.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250812184212_add_entities_for_bot.cs",
@@ -279,7 +467,8 @@
               "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250812184212_add_entities_for_bot.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:42:12.653Z"
+              "WhenOpened": "2025-08-12T18:42:12.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -289,14 +478,14 @@
               "RelativeDocumentMoniker": "LibraryBot\\Worker.cs",
               "ToolTip": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\LibraryBot\\Worker.cs",
               "RelativeToolTip": "LibraryBot\\Worker.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAwwM0AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T17:44:29.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "20250731070859_ModifyUserModel.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250731070859_ModifyUserModel.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250731070859_ModifyUserModel.cs",
@@ -304,11 +493,12 @@
               "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250731070859_ModifyUserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T07:08:59.903Z"
+              "WhenOpened": "2025-07-31T07:08:59.903Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "20250731065850_AddUserModel.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250731065850_AddUserModel.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250731065850_AddUserModel.cs",
@@ -316,11 +506,12 @@
               "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250731065850_AddUserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T06:58:51.036Z"
+              "WhenOpened": "2025-07-31T06:58:51.036Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "20250724172531_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\Home pc\\source\\repos\\homework36-30iulie\\Library.Infrastructure\\Migrations\\20250724172531_InitialMigration.cs",
               "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250724172531_InitialMigration.cs",
@@ -328,7 +519,8 @@
               "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250724172531_InitialMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T06:31:44.176Z"
+              "WhenOpened": "2025-07-31T06:31:44.176Z",
+              "EditorCaption": ""
             }
           ]
         }

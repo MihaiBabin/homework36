@@ -7,5 +7,7 @@ namespace Library.Aplication.Interfaces
         Task CreateChat(Chat chat, CancellationToken ct = default);
 
         Task<Chat?> GetChat(long id, CancellationToken ct = default);
+
+        Task<List<ChatNotifications>> GetAllChatsForNewBookNotification(CancellationToken ct = default);
     }
 }

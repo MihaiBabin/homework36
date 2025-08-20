@@ -4,7 +4,7 @@
     "Projects": [
       {
         "Path": "LibraryAPI\\LibraryAPI.csproj",
-        "Action": "Start"
+        "Action": "StartWithoutDebugging"
       },
       {
         "Path": "LibraryBot\\LibraryBot.csproj",

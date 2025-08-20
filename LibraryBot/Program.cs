@@ -2,6 +2,7 @@ using Library.Infrastructure.Extensions;
 using LibraryBot.Implementations;
 using LibraryBot.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using Quartz;
 using Telegram.Bot;
 
 
@@ -29,6 +30,21 @@ namespace LibraryBot
                     new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 c.DefaultRequestHeaders.Add("x-app-name", builder.Configuration["LibraryApiConfig:AppName"]);
             });
+
+            builder.Services.AddQuartz(q =>
+            {
+                var notificatJobKey = new JobKey(nameof(LibraryNotificationJob));
+                q.AddJob<LibraryNotificationJob>(opts => opts.WithIdentity(notificatJobKey));
+                q.AddTrigger(opts =>
+                opts.ForJob(notificatJobKey)
+                .WithIdentity($"{notificatJobKey}_trigger")
+                .WithSimpleSchedule(x => x
+                    .WithIntervalInSeconds(10)
+                    .RepeatForever()
+                    .WithMisfireHandlingInstructionNextWithExistingCount()));
+            });
+
+            builder.Services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);
 
             var host = builder.Build();
             host.Run();
